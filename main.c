@@ -77,9 +77,20 @@ int main(void) {
     
     sleeps(3);   
     printf("\n\n");
-    puts("出卦中……");
-    printf("\n\n");
-    sleeps(12);
+    //puts("出卦中……");
+    //printf("\n\n");
+    sleeps(3);
+    puts("占卜进度▓░░░░░░░░░10%……");
+    sleeps(3);
+    puts("占卜进度▓▓▓░░░░░░░30%……");
+    sleeps(3);
+    puts("占卜进度▓▓▓▓▓░░░░░50%……");
+    sleeps(3);
+    puts("占卜进度▓▓▓▓▓▓▓░░░70%……");
+    sleeps(3);
+    puts("占卜进度▓▓▓▓▓▓▓▓▓░90%……");
+    sleeps(3);
+    printf("\n");
     //printf("value = %d\n", value);
     branch1(value);
     
